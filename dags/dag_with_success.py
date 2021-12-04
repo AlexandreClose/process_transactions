@@ -61,4 +61,5 @@ with dag:
 
     )
 
+    # this is the way to chain the task with specific operators. the algo are branched into individual tasks
     task_delete_table_transactions>> task_create_table_transactions >> task_populate_table_transactions >>  [task_run_algo_annotation,task_run_algo_tag] >> task_dump_table_transactions_to_csv

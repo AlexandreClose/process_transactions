@@ -23,7 +23,7 @@ def insert_transactions():
                     VALUES %s
                     ON CONFLICT DO NOTHING
                     """
-        result = execute_values(conn_ps.cursor(), insert_sql, values, page_size=len(transactions))
+        execute_values(conn_ps.cursor(), insert_sql, values, page_size=len(transactions))
         conn_ps.commit()
     else:
         None

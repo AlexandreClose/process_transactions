@@ -1,3 +1,5 @@
+from typing import Tuple
+
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 import logging
 from psycopg2.extras import execute_values
@@ -5,6 +7,7 @@ from models.transaction import Transaction
 
 
 def run_algo_tag():
+    # Load the datas
     ps_pg_hook = PostgresHook(postgres_conn_id="airflow_db")
     conn_ps = ps_pg_hook.get_conn()
     query = """
@@ -22,6 +25,7 @@ def run_algo_tag():
     cur.close()
     conn_ps.close()
 
+    # run the algo
     POTENTIAL_TAGS: Tuple[str, ...] = ('TATA', 'TOTO', 'TUTU', 'TAXI')
 
     for transaction_iter in transactions:
@@ -31,12 +35,13 @@ def run_algo_tag():
             for tags in (tuple(tag for tag in POTENTIAL_TAGS if tag in transaction_iter.wording),)
             for tag in (tags if len(tags) == 1 else (None,))
         ]
-        transaction_iter.tag = tags[0]["tag"]
+        transaction_iter.set_tag(tags[0]["tag"])
         transactions_tagged.append(transaction_iter)
     transactions_tagged_values=[]
     for  transactions_annoted_iter in transactions_tagged:
         transactions_tagged_values.append([transactions_annoted_iter.id,transactions_annoted_iter.tag])
 
+    # update the datas with the tags
     conn_ps = ps_pg_hook.get_conn()
     update_with_tags = """
         update transactions as t set
