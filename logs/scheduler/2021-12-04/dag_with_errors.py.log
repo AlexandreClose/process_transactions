@@ -1,0 +1,609 @@
+[2021-12-04 17:12:55,696] {processor.py:163} INFO - Started process (PID=1271) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:12:55,697] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:12:55,698] {logging_mixin.py:109} INFO - [2021-12-04 17:12:55,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:12:55,991] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:12:56,007] {logging_mixin.py:109} INFO - [2021-12-04 17:12:56,006] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:12:56,019] {logging_mixin.py:109} INFO - [2021-12-04 17:12:56,018] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:12:56,025] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.331 seconds
+[2021-12-04 17:13:26,073] {processor.py:163} INFO - Started process (PID=1277) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:13:26,075] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:13:26,075] {logging_mixin.py:109} INFO - [2021-12-04 17:13:26,075] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:13:26,344] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:13:26,359] {logging_mixin.py:109} INFO - [2021-12-04 17:13:26,359] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:13:26,370] {logging_mixin.py:109} INFO - [2021-12-04 17:13:26,370] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:13:26,377] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.306 seconds
+[2021-12-04 17:13:56,476] {processor.py:163} INFO - Started process (PID=1283) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:13:56,477] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:13:56,478] {logging_mixin.py:109} INFO - [2021-12-04 17:13:56,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:13:56,773] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:13:56,791] {logging_mixin.py:109} INFO - [2021-12-04 17:13:56,790] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:13:56,803] {logging_mixin.py:109} INFO - [2021-12-04 17:13:56,803] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:13:56,809] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.336 seconds
+[2021-12-04 17:14:26,903] {processor.py:163} INFO - Started process (PID=1289) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:14:26,904] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:14:26,906] {logging_mixin.py:109} INFO - [2021-12-04 17:14:26,905] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:14:27,215] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:14:27,230] {logging_mixin.py:109} INFO - [2021-12-04 17:14:27,229] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:14:27,241] {logging_mixin.py:109} INFO - [2021-12-04 17:14:27,240] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:14:27,257] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.357 seconds
+[2021-12-04 17:14:57,358] {processor.py:163} INFO - Started process (PID=1295) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:14:57,360] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:14:57,361] {logging_mixin.py:109} INFO - [2021-12-04 17:14:57,360] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:14:57,642] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:14:57,659] {logging_mixin.py:109} INFO - [2021-12-04 17:14:57,659] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:14:57,671] {logging_mixin.py:109} INFO - [2021-12-04 17:14:57,671] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:14:57,686] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.330 seconds
+[2021-12-04 17:15:27,785] {processor.py:163} INFO - Started process (PID=1301) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:15:27,787] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:15:27,788] {logging_mixin.py:109} INFO - [2021-12-04 17:15:27,788] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:15:28,077] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:15:28,092] {logging_mixin.py:109} INFO - [2021-12-04 17:15:28,091] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:15:28,103] {logging_mixin.py:109} INFO - [2021-12-04 17:15:28,103] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:15:28,111] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.328 seconds
+[2021-12-04 17:15:58,261] {processor.py:163} INFO - Started process (PID=1307) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:15:58,262] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:15:58,263] {logging_mixin.py:109} INFO - [2021-12-04 17:15:58,263] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:15:58,552] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:15:58,568] {logging_mixin.py:109} INFO - [2021-12-04 17:15:58,567] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:15:58,580] {logging_mixin.py:109} INFO - [2021-12-04 17:15:58,580] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:15:58,587] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.329 seconds
+[2021-12-04 17:16:28,683] {processor.py:163} INFO - Started process (PID=1313) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:16:28,685] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:16:28,686] {logging_mixin.py:109} INFO - [2021-12-04 17:16:28,686] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:16:28,967] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:16:28,983] {logging_mixin.py:109} INFO - [2021-12-04 17:16:28,983] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:16:28,994] {logging_mixin.py:109} INFO - [2021-12-04 17:16:28,994] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:16:29,000] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.319 seconds
+[2021-12-04 17:16:59,096] {processor.py:163} INFO - Started process (PID=1319) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:16:59,097] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:16:59,098] {logging_mixin.py:109} INFO - [2021-12-04 17:16:59,098] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:16:59,380] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:16:59,396] {logging_mixin.py:109} INFO - [2021-12-04 17:16:59,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:16:59,406] {logging_mixin.py:109} INFO - [2021-12-04 17:16:59,406] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:16:59,414] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.320 seconds
+[2021-12-04 17:17:29,518] {processor.py:163} INFO - Started process (PID=1325) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:17:29,520] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:17:29,521] {logging_mixin.py:109} INFO - [2021-12-04 17:17:29,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:17:29,803] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:17:29,831] {logging_mixin.py:109} INFO - [2021-12-04 17:17:29,830] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:17:29,848] {logging_mixin.py:109} INFO - [2021-12-04 17:17:29,848] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:17:29,857] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.341 seconds
+[2021-12-04 17:17:59,961] {processor.py:163} INFO - Started process (PID=1331) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:17:59,962] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:17:59,964] {logging_mixin.py:109} INFO - [2021-12-04 17:17:59,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:18:00,348] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:18:00,364] {logging_mixin.py:109} INFO - [2021-12-04 17:18:00,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:18:00,375] {logging_mixin.py:109} INFO - [2021-12-04 17:18:00,375] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:18:00,382] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.424 seconds
+[2021-12-04 17:18:31,057] {processor.py:163} INFO - Started process (PID=1337) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:18:31,059] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:18:31,060] {logging_mixin.py:109} INFO - [2021-12-04 17:18:31,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:18:31,370] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:18:31,385] {logging_mixin.py:109} INFO - [2021-12-04 17:18:31,385] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:18:31,397] {logging_mixin.py:109} INFO - [2021-12-04 17:18:31,397] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:18:31,403] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.349 seconds
+[2021-12-04 17:19:01,509] {processor.py:163} INFO - Started process (PID=1343) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:19:01,511] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:19:01,512] {logging_mixin.py:109} INFO - [2021-12-04 17:19:01,511] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:19:01,803] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:19:01,819] {logging_mixin.py:109} INFO - [2021-12-04 17:19:01,819] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:19:01,894] {logging_mixin.py:109} INFO - [2021-12-04 17:19:01,894] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:19:01,901] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.393 seconds
+[2021-12-04 17:19:32,004] {processor.py:163} INFO - Started process (PID=1349) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:19:32,006] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:19:32,007] {logging_mixin.py:109} INFO - [2021-12-04 17:19:32,007] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:19:32,303] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:19:32,319] {logging_mixin.py:109} INFO - [2021-12-04 17:19:32,318] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:19:32,394] {logging_mixin.py:109} INFO - [2021-12-04 17:19:32,394] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:19:32,418] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.416 seconds
+[2021-12-04 17:20:02,529] {processor.py:163} INFO - Started process (PID=1355) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:20:02,530] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:20:02,532] {logging_mixin.py:109} INFO - [2021-12-04 17:20:02,532] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:20:02,836] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:20:02,852] {logging_mixin.py:109} INFO - [2021-12-04 17:20:02,852] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:20:02,931] {logging_mixin.py:109} INFO - [2021-12-04 17:20:02,930] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:20:02,947] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.421 seconds
+[2021-12-04 17:20:33,053] {processor.py:163} INFO - Started process (PID=1361) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:20:33,055] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:20:33,056] {logging_mixin.py:109} INFO - [2021-12-04 17:20:33,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:20:33,339] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:20:33,423] {logging_mixin.py:109} INFO - [2021-12-04 17:20:33,423] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:20:33,433] {logging_mixin.py:109} INFO - [2021-12-04 17:20:33,433] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:20:33,440] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.389 seconds
+[2021-12-04 17:21:03,591] {processor.py:163} INFO - Started process (PID=1367) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:21:03,592] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:21:03,593] {logging_mixin.py:109} INFO - [2021-12-04 17:21:03,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:21:03,879] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:21:03,954] {logging_mixin.py:109} INFO - [2021-12-04 17:21:03,954] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:21:03,965] {logging_mixin.py:109} INFO - [2021-12-04 17:21:03,965] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:21:03,971] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.382 seconds
+[2021-12-04 17:21:34,071] {processor.py:163} INFO - Started process (PID=1373) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:21:34,072] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:21:34,073] {logging_mixin.py:109} INFO - [2021-12-04 17:21:34,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:21:34,352] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:21:34,428] {logging_mixin.py:109} INFO - [2021-12-04 17:21:34,428] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:21:34,439] {logging_mixin.py:109} INFO - [2021-12-04 17:21:34,439] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:21:34,445] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.376 seconds
+[2021-12-04 17:22:04,548] {processor.py:163} INFO - Started process (PID=1379) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:22:04,549] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:22:04,550] {logging_mixin.py:109} INFO - [2021-12-04 17:22:04,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:22:04,840] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:22:04,920] {logging_mixin.py:109} INFO - [2021-12-04 17:22:04,920] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:22:04,930] {logging_mixin.py:109} INFO - [2021-12-04 17:22:04,930] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:22:04,946] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.400 seconds
+[2021-12-04 17:22:35,048] {processor.py:163} INFO - Started process (PID=1385) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:22:35,049] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:22:35,050] {logging_mixin.py:109} INFO - [2021-12-04 17:22:35,050] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:22:35,322] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:22:35,396] {logging_mixin.py:109} INFO - [2021-12-04 17:22:35,396] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:22:35,406] {logging_mixin.py:109} INFO - [2021-12-04 17:22:35,406] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:22:35,430] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.384 seconds
+[2021-12-04 17:23:05,532] {processor.py:163} INFO - Started process (PID=1391) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:23:05,534] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:23:05,535] {logging_mixin.py:109} INFO - [2021-12-04 17:23:05,535] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:23:05,815] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:23:05,908] {logging_mixin.py:109} INFO - [2021-12-04 17:23:05,907] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:23:05,919] {logging_mixin.py:109} INFO - [2021-12-04 17:23:05,919] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:23:05,926] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.395 seconds
+[2021-12-04 17:23:36,029] {processor.py:163} INFO - Started process (PID=1397) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:23:36,030] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:23:36,031] {logging_mixin.py:109} INFO - [2021-12-04 17:23:36,031] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:23:36,320] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:23:36,400] {logging_mixin.py:109} INFO - [2021-12-04 17:23:36,400] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:23:36,411] {logging_mixin.py:109} INFO - [2021-12-04 17:23:36,411] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:23:36,417] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.391 seconds
+[2021-12-04 17:24:06,518] {processor.py:163} INFO - Started process (PID=1403) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:24:06,521] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:24:06,523] {logging_mixin.py:109} INFO - [2021-12-04 17:24:06,522] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:24:06,809] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:24:06,889] {logging_mixin.py:109} INFO - [2021-12-04 17:24:06,889] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:24:06,900] {logging_mixin.py:109} INFO - [2021-12-04 17:24:06,899] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:24:06,906] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.390 seconds
+[2021-12-04 17:24:37,008] {processor.py:163} INFO - Started process (PID=1409) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:24:37,010] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:24:37,011] {logging_mixin.py:109} INFO - [2021-12-04 17:24:37,011] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:24:37,315] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:24:37,330] {logging_mixin.py:109} INFO - [2021-12-04 17:24:37,330] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:24:37,341] {logging_mixin.py:109} INFO - [2021-12-04 17:24:37,341] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:24:37,348] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.343 seconds
+[2021-12-04 17:25:07,451] {processor.py:163} INFO - Started process (PID=1415) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:25:07,452] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:25:07,453] {logging_mixin.py:109} INFO - [2021-12-04 17:25:07,453] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:25:07,766] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:25:07,782] {logging_mixin.py:109} INFO - [2021-12-04 17:25:07,782] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:25:07,794] {logging_mixin.py:109} INFO - [2021-12-04 17:25:07,793] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:25:07,800] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.351 seconds
+[2021-12-04 17:25:37,851] {processor.py:163} INFO - Started process (PID=1421) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:25:37,852] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:25:37,853] {logging_mixin.py:109} INFO - [2021-12-04 17:25:37,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:25:38,126] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:25:38,140] {logging_mixin.py:109} INFO - [2021-12-04 17:25:38,140] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:25:38,151] {logging_mixin.py:109} INFO - [2021-12-04 17:25:38,151] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:25:38,168] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.320 seconds
+[2021-12-04 17:26:08,304] {processor.py:163} INFO - Started process (PID=1427) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:26:08,305] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:26:08,306] {logging_mixin.py:109} INFO - [2021-12-04 17:26:08,306] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:26:08,586] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:26:08,602] {logging_mixin.py:109} INFO - [2021-12-04 17:26:08,601] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:26:08,618] {logging_mixin.py:109} INFO - [2021-12-04 17:26:08,618] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:26:08,629] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.328 seconds
+[2021-12-04 17:26:38,692] {processor.py:163} INFO - Started process (PID=1433) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:26:38,693] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:26:38,694] {logging_mixin.py:109} INFO - [2021-12-04 17:26:38,694] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:26:38,979] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:26:38,993] {logging_mixin.py:109} INFO - [2021-12-04 17:26:38,993] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:26:39,004] {logging_mixin.py:109} INFO - [2021-12-04 17:26:39,004] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:26:39,010] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.321 seconds
+[2021-12-04 17:27:09,112] {processor.py:163} INFO - Started process (PID=1439) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:27:09,114] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:27:09,115] {logging_mixin.py:109} INFO - [2021-12-04 17:27:09,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:27:09,497] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:27:09,513] {logging_mixin.py:109} INFO - [2021-12-04 17:27:09,512] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:27:09,525] {logging_mixin.py:109} INFO - [2021-12-04 17:27:09,525] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:27:09,533] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.423 seconds
+[2021-12-04 17:27:40,209] {processor.py:163} INFO - Started process (PID=1445) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:27:40,210] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:27:40,212] {logging_mixin.py:109} INFO - [2021-12-04 17:27:40,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:27:40,502] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:27:40,518] {logging_mixin.py:109} INFO - [2021-12-04 17:27:40,518] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:27:40,529] {logging_mixin.py:109} INFO - [2021-12-04 17:27:40,529] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:27:40,544] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.338 seconds
+[2021-12-04 17:28:10,655] {processor.py:163} INFO - Started process (PID=1451) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:28:10,656] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:28:10,657] {logging_mixin.py:109} INFO - [2021-12-04 17:28:10,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:28:10,946] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:28:10,963] {logging_mixin.py:109} INFO - [2021-12-04 17:28:10,962] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:28:10,975] {logging_mixin.py:109} INFO - [2021-12-04 17:28:10,975] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:28:10,983] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.330 seconds
+[2021-12-04 17:28:41,085] {processor.py:163} INFO - Started process (PID=1457) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:28:41,087] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:28:41,088] {logging_mixin.py:109} INFO - [2021-12-04 17:28:41,087] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:28:41,364] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:28:41,378] {logging_mixin.py:109} INFO - [2021-12-04 17:28:41,378] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:28:41,390] {logging_mixin.py:109} INFO - [2021-12-04 17:28:41,390] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:28:41,397] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.314 seconds
+[2021-12-04 17:29:11,503] {processor.py:163} INFO - Started process (PID=1463) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:29:11,504] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:29:11,505] {logging_mixin.py:109} INFO - [2021-12-04 17:29:11,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:29:11,848] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:29:11,863] {logging_mixin.py:109} INFO - [2021-12-04 17:29:11,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:29:11,873] {logging_mixin.py:109} INFO - [2021-12-04 17:29:11,873] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:29:11,888] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.388 seconds
+[2021-12-04 17:29:41,994] {processor.py:163} INFO - Started process (PID=1469) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:29:41,996] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:29:41,997] {logging_mixin.py:109} INFO - [2021-12-04 17:29:41,997] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:29:42,295] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:29:42,310] {logging_mixin.py:109} INFO - [2021-12-04 17:29:42,309] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:29:42,320] {logging_mixin.py:109} INFO - [2021-12-04 17:29:42,320] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:29:42,327] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.335 seconds
+[2021-12-04 17:30:12,430] {processor.py:163} INFO - Started process (PID=1475) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:30:12,432] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:30:12,432] {logging_mixin.py:109} INFO - [2021-12-04 17:30:12,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:30:12,716] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:30:12,731] {logging_mixin.py:109} INFO - [2021-12-04 17:30:12,731] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:30:12,743] {logging_mixin.py:109} INFO - [2021-12-04 17:30:12,742] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:30:12,750] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.322 seconds
+[2021-12-04 17:30:42,862] {processor.py:163} INFO - Started process (PID=1481) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:30:42,863] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:30:42,864] {logging_mixin.py:109} INFO - [2021-12-04 17:30:42,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:30:43,146] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:30:43,160] {logging_mixin.py:109} INFO - [2021-12-04 17:30:43,160] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:30:43,171] {logging_mixin.py:109} INFO - [2021-12-04 17:30:43,171] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:30:43,186] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.327 seconds
+[2021-12-04 17:31:13,287] {processor.py:163} INFO - Started process (PID=1487) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:31:13,289] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:31:13,290] {logging_mixin.py:109} INFO - [2021-12-04 17:31:13,290] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:31:13,569] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:31:13,584] {logging_mixin.py:109} INFO - [2021-12-04 17:31:13,584] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:31:13,596] {logging_mixin.py:109} INFO - [2021-12-04 17:31:13,596] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:31:13,611] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.326 seconds
+[2021-12-04 17:31:43,714] {processor.py:163} INFO - Started process (PID=1493) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:31:43,715] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:31:43,716] {logging_mixin.py:109} INFO - [2021-12-04 17:31:43,716] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:31:44,009] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:31:44,024] {logging_mixin.py:109} INFO - [2021-12-04 17:31:44,024] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:31:44,036] {logging_mixin.py:109} INFO - [2021-12-04 17:31:44,036] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:31:44,043] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.331 seconds
+[2021-12-04 17:32:14,146] {processor.py:163} INFO - Started process (PID=1499) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:32:14,148] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:32:14,149] {logging_mixin.py:109} INFO - [2021-12-04 17:32:14,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:32:14,473] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:32:14,489] {logging_mixin.py:109} INFO - [2021-12-04 17:32:14,488] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:32:14,500] {logging_mixin.py:109} INFO - [2021-12-04 17:32:14,500] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:32:14,508] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.364 seconds
+[2021-12-04 17:32:44,618] {processor.py:163} INFO - Started process (PID=1505) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:32:44,619] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:32:44,620] {logging_mixin.py:109} INFO - [2021-12-04 17:32:44,620] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:32:44,967] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:32:44,982] {logging_mixin.py:109} INFO - [2021-12-04 17:32:44,981] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:32:44,994] {logging_mixin.py:109} INFO - [2021-12-04 17:32:44,993] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:32:45,001] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.385 seconds
+[2021-12-04 17:33:15,103] {processor.py:163} INFO - Started process (PID=1511) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:33:15,105] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:33:15,106] {logging_mixin.py:109} INFO - [2021-12-04 17:33:15,106] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:33:15,392] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:33:15,415] {logging_mixin.py:109} INFO - [2021-12-04 17:33:15,415] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:33:15,433] {logging_mixin.py:109} INFO - [2021-12-04 17:33:15,433] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:33:15,444] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.342 seconds
+[2021-12-04 17:33:45,548] {processor.py:163} INFO - Started process (PID=1517) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:33:45,549] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:33:45,550] {logging_mixin.py:109} INFO - [2021-12-04 17:33:45,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:33:45,843] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:33:45,863] {logging_mixin.py:109} INFO - [2021-12-04 17:33:45,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:33:45,877] {logging_mixin.py:109} INFO - [2021-12-04 17:33:45,877] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:33:45,884] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.339 seconds
+[2021-12-04 17:34:15,982] {processor.py:163} INFO - Started process (PID=1523) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:34:15,983] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:34:15,984] {logging_mixin.py:109} INFO - [2021-12-04 17:34:15,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:34:16,268] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:34:16,283] {logging_mixin.py:109} INFO - [2021-12-04 17:34:16,282] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:34:16,294] {logging_mixin.py:109} INFO - [2021-12-04 17:34:16,294] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:34:16,301] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.321 seconds
+[2021-12-04 17:34:46,400] {processor.py:163} INFO - Started process (PID=1529) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:34:46,402] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:34:46,403] {logging_mixin.py:109} INFO - [2021-12-04 17:34:46,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:34:46,700] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:34:46,715] {logging_mixin.py:109} INFO - [2021-12-04 17:34:46,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:34:46,727] {logging_mixin.py:109} INFO - [2021-12-04 17:34:46,727] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:34:46,743] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.345 seconds
+[2021-12-04 17:35:16,842] {processor.py:163} INFO - Started process (PID=1535) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:35:16,844] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:35:16,844] {logging_mixin.py:109} INFO - [2021-12-04 17:35:16,844] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:35:17,114] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:35:17,130] {logging_mixin.py:109} INFO - [2021-12-04 17:35:17,129] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:35:17,208] {logging_mixin.py:109} INFO - [2021-12-04 17:35:17,208] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:35:17,232] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.393 seconds
+[2021-12-04 17:35:47,339] {processor.py:163} INFO - Started process (PID=1541) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:35:47,341] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:35:47,342] {logging_mixin.py:109} INFO - [2021-12-04 17:35:47,342] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:35:47,613] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:35:47,629] {logging_mixin.py:109} INFO - [2021-12-04 17:35:47,629] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:35:47,701] {logging_mixin.py:109} INFO - [2021-12-04 17:35:47,701] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:35:47,716] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.379 seconds
+[2021-12-04 17:36:17,853] {processor.py:163} INFO - Started process (PID=1547) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:36:17,854] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:36:17,855] {logging_mixin.py:109} INFO - [2021-12-04 17:36:17,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:36:18,156] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:36:18,171] {logging_mixin.py:109} INFO - [2021-12-04 17:36:18,170] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:36:18,242] {logging_mixin.py:109} INFO - [2021-12-04 17:36:18,242] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:36:18,250] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.399 seconds
+[2021-12-04 17:36:48,356] {processor.py:163} INFO - Started process (PID=1553) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:36:48,357] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:36:48,358] {logging_mixin.py:109} INFO - [2021-12-04 17:36:48,358] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:36:48,628] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:36:48,713] {logging_mixin.py:109} INFO - [2021-12-04 17:36:48,713] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:36:48,726] {logging_mixin.py:109} INFO - [2021-12-04 17:36:48,726] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:36:48,742] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.387 seconds
+[2021-12-04 17:37:18,850] {processor.py:163} INFO - Started process (PID=1559) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:37:18,851] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:37:18,852] {logging_mixin.py:109} INFO - [2021-12-04 17:37:18,852] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:37:19,161] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:37:19,240] {logging_mixin.py:109} INFO - [2021-12-04 17:37:19,240] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:37:19,251] {logging_mixin.py:109} INFO - [2021-12-04 17:37:19,251] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:37:19,258] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.411 seconds
+[2021-12-04 17:37:49,362] {processor.py:163} INFO - Started process (PID=1565) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:37:49,363] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:37:49,364] {logging_mixin.py:109} INFO - [2021-12-04 17:37:49,364] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:37:49,665] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:37:49,749] {logging_mixin.py:109} INFO - [2021-12-04 17:37:49,749] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:37:49,767] {logging_mixin.py:109} INFO - [2021-12-04 17:37:49,767] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:37:49,776] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.416 seconds
+[2021-12-04 17:38:19,880] {processor.py:163} INFO - Started process (PID=1571) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:38:19,882] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:38:19,882] {logging_mixin.py:109} INFO - [2021-12-04 17:38:19,882] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:38:20,229] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:38:20,306] {logging_mixin.py:109} INFO - [2021-12-04 17:38:20,305] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:38:20,316] {logging_mixin.py:109} INFO - [2021-12-04 17:38:20,316] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:38:20,322] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.444 seconds
+[2021-12-04 17:38:50,349] {processor.py:163} INFO - Started process (PID=1577) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:38:50,350] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:38:50,351] {logging_mixin.py:109} INFO - [2021-12-04 17:38:50,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:38:50,671] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:38:50,748] {logging_mixin.py:109} INFO - [2021-12-04 17:38:50,748] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:38:50,759] {logging_mixin.py:109} INFO - [2021-12-04 17:38:50,758] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:38:50,765] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.419 seconds
+[2021-12-04 17:39:20,807] {processor.py:163} INFO - Started process (PID=1583) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:39:20,809] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:39:20,810] {logging_mixin.py:109} INFO - [2021-12-04 17:39:20,810] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:39:21,118] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:39:21,197] {logging_mixin.py:109} INFO - [2021-12-04 17:39:21,196] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:39:21,207] {logging_mixin.py:109} INFO - [2021-12-04 17:39:21,207] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:39:21,214] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.411 seconds
+[2021-12-04 17:39:51,273] {processor.py:163} INFO - Started process (PID=1589) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:39:51,274] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:39:51,275] {logging_mixin.py:109} INFO - [2021-12-04 17:39:51,275] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:39:51,573] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:39:51,651] {logging_mixin.py:109} INFO - [2021-12-04 17:39:51,651] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:39:51,662] {logging_mixin.py:109} INFO - [2021-12-04 17:39:51,662] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:39:51,668] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.398 seconds
+[2021-12-04 17:40:21,785] {processor.py:163} INFO - Started process (PID=1595) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:40:21,786] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:40:21,787] {logging_mixin.py:109} INFO - [2021-12-04 17:40:21,787] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:40:22,065] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:40:22,143] {logging_mixin.py:109} INFO - [2021-12-04 17:40:22,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:40:22,154] {logging_mixin.py:109} INFO - [2021-12-04 17:40:22,154] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:40:22,161] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.378 seconds
+[2021-12-04 17:40:52,262] {processor.py:163} INFO - Started process (PID=1601) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:40:52,263] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:40:52,264] {logging_mixin.py:109} INFO - [2021-12-04 17:40:52,264] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:40:52,620] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:40:52,634] {logging_mixin.py:109} INFO - [2021-12-04 17:40:52,634] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:40:52,646] {logging_mixin.py:109} INFO - [2021-12-04 17:40:52,646] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:40:52,662] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.402 seconds
+[2021-12-04 17:41:22,765] {processor.py:163} INFO - Started process (PID=1607) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:41:22,766] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:41:22,767] {logging_mixin.py:109} INFO - [2021-12-04 17:41:22,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:41:23,134] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:41:23,148] {logging_mixin.py:109} INFO - [2021-12-04 17:41:23,148] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:41:23,159] {logging_mixin.py:109} INFO - [2021-12-04 17:41:23,159] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:41:23,165] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.402 seconds
+[2021-12-04 17:41:53,226] {processor.py:163} INFO - Started process (PID=1613) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:41:53,228] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:41:53,229] {logging_mixin.py:109} INFO - [2021-12-04 17:41:53,229] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:41:53,559] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:41:53,573] {logging_mixin.py:109} INFO - [2021-12-04 17:41:53,573] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:41:53,583] {logging_mixin.py:109} INFO - [2021-12-04 17:41:53,583] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:41:53,590] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.366 seconds
+[2021-12-04 17:42:23,705] {processor.py:163} INFO - Started process (PID=1619) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:42:23,706] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:42:23,708] {logging_mixin.py:109} INFO - [2021-12-04 17:42:23,708] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:42:24,052] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:42:24,072] {logging_mixin.py:109} INFO - [2021-12-04 17:42:24,071] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:42:24,089] {logging_mixin.py:109} INFO - [2021-12-04 17:42:24,089] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:42:24,096] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.394 seconds
+[2021-12-04 17:42:54,207] {processor.py:163} INFO - Started process (PID=1625) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:42:54,208] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:42:54,209] {logging_mixin.py:109} INFO - [2021-12-04 17:42:54,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:42:54,556] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:42:54,571] {logging_mixin.py:109} INFO - [2021-12-04 17:42:54,571] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:42:54,583] {logging_mixin.py:109} INFO - [2021-12-04 17:42:54,583] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:42:54,590] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.386 seconds
+[2021-12-04 17:43:24,693] {processor.py:163} INFO - Started process (PID=1631) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:43:24,695] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:43:24,695] {logging_mixin.py:109} INFO - [2021-12-04 17:43:24,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:43:25,055] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:43:25,071] {logging_mixin.py:109} INFO - [2021-12-04 17:43:25,070] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:43:25,081] {logging_mixin.py:109} INFO - [2021-12-04 17:43:25,081] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:43:25,098] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.407 seconds
+[2021-12-04 17:43:55,148] {processor.py:163} INFO - Started process (PID=1637) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:43:55,150] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:43:55,151] {logging_mixin.py:109} INFO - [2021-12-04 17:43:55,151] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:43:55,508] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:43:55,523] {logging_mixin.py:109} INFO - [2021-12-04 17:43:55,523] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:43:55,535] {logging_mixin.py:109} INFO - [2021-12-04 17:43:55,535] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:43:55,550] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.404 seconds
+[2021-12-04 17:44:25,599] {processor.py:163} INFO - Started process (PID=1643) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:44:25,600] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:44:25,601] {logging_mixin.py:109} INFO - [2021-12-04 17:44:25,601] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:44:25,962] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:44:25,976] {logging_mixin.py:109} INFO - [2021-12-04 17:44:25,976] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:44:25,987] {logging_mixin.py:109} INFO - [2021-12-04 17:44:25,987] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:44:25,994] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.397 seconds
+[2021-12-04 17:44:56,047] {processor.py:163} INFO - Started process (PID=1649) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:44:56,048] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:44:56,049] {logging_mixin.py:109} INFO - [2021-12-04 17:44:56,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:44:56,405] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:44:56,419] {logging_mixin.py:109} INFO - [2021-12-04 17:44:56,418] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:44:56,430] {logging_mixin.py:109} INFO - [2021-12-04 17:44:56,430] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:44:56,436] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.392 seconds
+[2021-12-04 17:45:26,537] {processor.py:163} INFO - Started process (PID=1655) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:45:26,539] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:45:26,540] {logging_mixin.py:109} INFO - [2021-12-04 17:45:26,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:45:26,903] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:45:26,917] {logging_mixin.py:109} INFO - [2021-12-04 17:45:26,917] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:45:26,927] {logging_mixin.py:109} INFO - [2021-12-04 17:45:26,927] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:45:26,934] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.399 seconds
+[2021-12-04 17:45:57,070] {processor.py:163} INFO - Started process (PID=1661) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:45:57,072] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:45:57,073] {logging_mixin.py:109} INFO - [2021-12-04 17:45:57,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:45:57,452] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:45:57,466] {logging_mixin.py:109} INFO - [2021-12-04 17:45:57,466] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:45:57,477] {logging_mixin.py:109} INFO - [2021-12-04 17:45:57,477] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:45:57,483] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.415 seconds
+[2021-12-04 17:46:27,536] {processor.py:163} INFO - Started process (PID=1667) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:46:27,537] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:46:27,538] {logging_mixin.py:109} INFO - [2021-12-04 17:46:27,538] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:46:27,891] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:46:27,907] {logging_mixin.py:109} INFO - [2021-12-04 17:46:27,907] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:46:27,918] {logging_mixin.py:109} INFO - [2021-12-04 17:46:27,918] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:46:27,927] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.393 seconds
+[2021-12-04 17:46:58,036] {processor.py:163} INFO - Started process (PID=1673) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:46:58,038] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:46:58,039] {logging_mixin.py:109} INFO - [2021-12-04 17:46:58,039] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:46:58,384] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:46:58,399] {logging_mixin.py:109} INFO - [2021-12-04 17:46:58,398] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:46:58,409] {logging_mixin.py:109} INFO - [2021-12-04 17:46:58,409] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:46:58,415] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.382 seconds
+[2021-12-04 17:47:28,522] {processor.py:163} INFO - Started process (PID=1679) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:47:28,524] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:47:28,525] {logging_mixin.py:109} INFO - [2021-12-04 17:47:28,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:47:28,862] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:47:28,876] {logging_mixin.py:109} INFO - [2021-12-04 17:47:28,875] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:47:28,886] {logging_mixin.py:109} INFO - [2021-12-04 17:47:28,886] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:47:28,901] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.381 seconds
+[2021-12-04 17:47:59,006] {processor.py:163} INFO - Started process (PID=1685) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:47:59,007] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:47:59,008] {logging_mixin.py:109} INFO - [2021-12-04 17:47:59,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:47:59,354] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:47:59,374] {logging_mixin.py:109} INFO - [2021-12-04 17:47:59,374] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:47:59,387] {logging_mixin.py:109} INFO - [2021-12-04 17:47:59,387] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:47:59,397] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.393 seconds
+[2021-12-04 17:48:29,503] {processor.py:163} INFO - Started process (PID=1691) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:48:29,504] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:48:29,505] {logging_mixin.py:109} INFO - [2021-12-04 17:48:29,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:48:29,868] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:48:29,882] {logging_mixin.py:109} INFO - [2021-12-04 17:48:29,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:48:29,892] {logging_mixin.py:109} INFO - [2021-12-04 17:48:29,892] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:48:29,898] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.397 seconds
+[2021-12-04 17:49:00,003] {processor.py:163} INFO - Started process (PID=1697) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:49:00,005] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:49:00,006] {logging_mixin.py:109} INFO - [2021-12-04 17:49:00,005] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:49:00,348] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:49:00,363] {logging_mixin.py:109} INFO - [2021-12-04 17:49:00,362] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:49:00,372] {logging_mixin.py:109} INFO - [2021-12-04 17:49:00,372] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:49:00,379] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.378 seconds
+[2021-12-04 17:49:30,480] {processor.py:163} INFO - Started process (PID=1703) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:49:30,482] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:49:30,483] {logging_mixin.py:109} INFO - [2021-12-04 17:49:30,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:49:30,812] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:49:30,828] {logging_mixin.py:109} INFO - [2021-12-04 17:49:30,828] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:49:30,838] {logging_mixin.py:109} INFO - [2021-12-04 17:49:30,838] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:49:30,853] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.375 seconds
+[2021-12-04 17:50:00,955] {processor.py:163} INFO - Started process (PID=1709) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:50:00,956] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:50:00,957] {logging_mixin.py:109} INFO - [2021-12-04 17:50:00,957] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:50:01,285] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:50:01,299] {logging_mixin.py:109} INFO - [2021-12-04 17:50:01,298] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:50:01,309] {logging_mixin.py:109} INFO - [2021-12-04 17:50:01,309] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:50:01,315] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.362 seconds
+[2021-12-04 17:50:31,416] {processor.py:163} INFO - Started process (PID=1715) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:50:31,417] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:50:31,418] {logging_mixin.py:109} INFO - [2021-12-04 17:50:31,418] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:50:31,774] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:50:31,789] {logging_mixin.py:109} INFO - [2021-12-04 17:50:31,788] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:50:31,799] {logging_mixin.py:109} INFO - [2021-12-04 17:50:31,799] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:50:31,808] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.395 seconds
+[2021-12-04 17:51:01,955] {processor.py:163} INFO - Started process (PID=1721) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:51:01,957] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:51:01,958] {logging_mixin.py:109} INFO - [2021-12-04 17:51:01,957] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:51:02,299] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:51:02,316] {logging_mixin.py:109} INFO - [2021-12-04 17:51:02,315] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:51:02,327] {logging_mixin.py:109} INFO - [2021-12-04 17:51:02,326] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:51:02,334] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.380 seconds
+[2021-12-04 17:51:32,437] {processor.py:163} INFO - Started process (PID=1727) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:51:32,438] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:51:32,439] {logging_mixin.py:109} INFO - [2021-12-04 17:51:32,439] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:51:32,777] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:51:32,794] {logging_mixin.py:109} INFO - [2021-12-04 17:51:32,794] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:51:32,805] {logging_mixin.py:109} INFO - [2021-12-04 17:51:32,805] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:51:32,831] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.396 seconds
+[2021-12-04 17:52:02,941] {processor.py:163} INFO - Started process (PID=1733) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:52:02,942] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:52:02,943] {logging_mixin.py:109} INFO - [2021-12-04 17:52:02,943] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:52:03,305] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:52:03,319] {logging_mixin.py:109} INFO - [2021-12-04 17:52:03,318] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:52:03,330] {logging_mixin.py:109} INFO - [2021-12-04 17:52:03,329] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:52:03,336] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.398 seconds
+[2021-12-04 17:52:33,437] {processor.py:163} INFO - Started process (PID=1739) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:52:33,438] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:52:33,439] {logging_mixin.py:109} INFO - [2021-12-04 17:52:33,439] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:52:33,811] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:52:33,826] {logging_mixin.py:109} INFO - [2021-12-04 17:52:33,826] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:52:33,837] {logging_mixin.py:109} INFO - [2021-12-04 17:52:33,837] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:52:33,844] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.409 seconds
+[2021-12-04 17:53:03,946] {processor.py:163} INFO - Started process (PID=1745) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:53:03,947] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:53:03,948] {logging_mixin.py:109} INFO - [2021-12-04 17:53:03,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:53:04,231] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:53:04,310] {logging_mixin.py:109} INFO - [2021-12-04 17:53:04,310] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:53:04,321] {logging_mixin.py:109} INFO - [2021-12-04 17:53:04,321] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:53:04,348] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.404 seconds
+[2021-12-04 17:53:34,447] {processor.py:163} INFO - Started process (PID=1751) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:53:34,449] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:53:34,450] {logging_mixin.py:109} INFO - [2021-12-04 17:53:34,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:53:34,757] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:53:34,848] {logging_mixin.py:109} INFO - [2021-12-04 17:53:34,847] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:53:34,859] {logging_mixin.py:109} INFO - [2021-12-04 17:53:34,859] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:53:34,887] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.443 seconds
+[2021-12-04 17:54:04,989] {processor.py:163} INFO - Started process (PID=1757) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:54:04,990] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:54:04,991] {logging_mixin.py:109} INFO - [2021-12-04 17:54:04,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:54:05,266] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:54:05,341] {logging_mixin.py:109} INFO - [2021-12-04 17:54:05,341] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:54:05,356] {logging_mixin.py:109} INFO - [2021-12-04 17:54:05,356] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:54:05,363] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.376 seconds
+[2021-12-04 17:54:35,466] {processor.py:163} INFO - Started process (PID=1763) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:54:35,468] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:54:35,470] {logging_mixin.py:109} INFO - [2021-12-04 17:54:35,470] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:54:35,862] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:54:35,982] {logging_mixin.py:109} INFO - [2021-12-04 17:54:35,982] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:54:36,001] {logging_mixin.py:109} INFO - [2021-12-04 17:54:36,000] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:54:36,015] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.551 seconds
+[2021-12-04 17:55:06,570] {processor.py:163} INFO - Started process (PID=1769) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:55:06,571] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:55:06,572] {logging_mixin.py:109} INFO - [2021-12-04 17:55:06,572] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:55:06,857] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:55:06,933] {logging_mixin.py:109} INFO - [2021-12-04 17:55:06,933] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:55:06,944] {logging_mixin.py:109} INFO - [2021-12-04 17:55:06,944] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:55:06,959] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.392 seconds
+[2021-12-04 17:55:37,070] {processor.py:163} INFO - Started process (PID=1775) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:55:37,071] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:55:37,072] {logging_mixin.py:109} INFO - [2021-12-04 17:55:37,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:55:37,346] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:55:37,423] {logging_mixin.py:109} INFO - [2021-12-04 17:55:37,423] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:55:37,434] {logging_mixin.py:109} INFO - [2021-12-04 17:55:37,434] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:55:37,441] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.373 seconds
+[2021-12-04 17:56:07,609] {processor.py:163} INFO - Started process (PID=1781) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:56:07,610] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:56:07,613] {logging_mixin.py:109} INFO - [2021-12-04 17:56:07,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:56:07,929] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:56:08,003] {logging_mixin.py:109} INFO - [2021-12-04 17:56:08,003] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:56:08,013] {logging_mixin.py:109} INFO - [2021-12-04 17:56:08,013] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:56:08,021] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.420 seconds
+[2021-12-04 17:56:38,140] {processor.py:163} INFO - Started process (PID=1787) to work on /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:56:38,142] {processor.py:625} INFO - Processing file /opt/airflow/dags/dag_with_errors.py for tasks to queue
+[2021-12-04 17:56:38,143] {logging_mixin.py:109} INFO - [2021-12-04 17:56:38,143] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:56:38,450] {processor.py:637} INFO - DAG(s) dict_keys(['transactions_dag_with_errors']) retrieved from /opt/airflow/dags/dag_with_errors.py
+[2021-12-04 17:56:38,524] {logging_mixin.py:109} INFO - [2021-12-04 17:56:38,524] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-04 17:56:38,535] {logging_mixin.py:109} INFO - [2021-12-04 17:56:38,535] {dag.py:2928} INFO - Setting next_dagrun for transactions_dag_with_errors to None
+[2021-12-04 17:56:38,560] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_with_errors.py took 0.423 seconds
