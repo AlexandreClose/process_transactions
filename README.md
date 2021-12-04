@@ -83,15 +83,18 @@ avec les informations suivantes :
 
 Vos DAG sont maintenant opérationnels. Vous pouvez retourner sur la page d'accueil et lancer
 les deux DAG l'un a la suite de l'autre ( pour des raisons de simplicité, j'utilise la même table pour les transactions, dans les 
-deux DAG).
+deux DAG). Le mot de passe a mettre pour cette connexion est airflow.
 
 # Lancement des DAG
 
+Avant de lancer les DAG, sur l'écran d'acceuil, vous devez les activer avec le petit toggle button sur la gauche.
 Vous pouvez lancer les DAG en cliquant sur la fleche. Vous pourrez voir le nombre de tâches en succès et le nombre de 
 tâches en erreurs directement sur l'interface, et consulter les logs de celles ci. 
 
 La dernière tâche, ainsi que le callback en cas d'echecs générent des fichiers dans le volume monté présent dans /data/output/ 
 dans le projet cloné. 
+
+En cliquant sur le nom des DAG, vous pourrez voir les informations liées au DAG.
 
 # Monitoring
 Grace à Airflow, vous pouvez monitorer les executions des jobs et avoir un rendu détaillé tâche par tâche, 
@@ -112,6 +115,7 @@ sur la base de données, me permettant d'économiser le code d'ouverture de la c
 - Avoir une gestion plus fine des erreurs; lister les problèmes possibles. 
 - Utiliser le système de retry d'AirFlow dans le cas ou une tâche est en echec. 
 - Avoir de l'alterting mail ou sur un autre backend. 
+- Ajouter une documentation précise des tâches grâce au mécanisme de doc_task d'Airflow
 
 # Conclusion
 
