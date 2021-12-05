@@ -102,7 +102,21 @@ avec le temps d'execution pris, comme c'est le cas sur l'image ci-dessous
 
 ![Alt text](images/details.png?raw=true "Graph")
 
-Le graph des tâches est également accessible. 
+Le graph des tâches est également accessible.
+
+# Modifications nécessaires pour une mise en production
+
+Pour une MEP, plusieurs changements sont à réaliser. 
+- Avoir un fichier de transactions quotidien, ou bi-hebdomadaire, reçu par la banque
+et mettre en place le mécanisme de schedule d'Airflow
+- Mettre en place des retry sur les tâches notamment pour les écritures dans la base, les
+appels serveurs et tout autre tâche dont le succès dépend d'un élément extérieur.
+- Mettre éventuellement en place un broker pour notifier les changements à réaliser en base
+et déléguer la responsabilité du delivery à ce broker. Celui-ci permettrait également
+de notifier plusieurs élements d'architecture des résultats des algos. Je pense notamment
+à la base de données du backend chez vous.
+- N'appliquer les traitements que sur les nouvelles transactions; en utilisant un champ de date
+que j'imagine présent quelque part en réalité.
 
 # Pistes d'amélioration
 
