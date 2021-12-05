@@ -7,7 +7,7 @@ que la documentation des tâches et le README ci-présent.
 # Enoncé du test et choix pris
 
 Le test technique propose la mise en place d'un DAG pour le traitement 
-de données très simple composées d'un ID, d'un montant et d'un label, puis d'effectuer
+de données très simple composées d'un ID, d'un montant et d'un label, puis de réaliser
 deux traitements distincts dessus, et enfin 
 d'effectuer le monitoring de ces traitements. 
 Il propose l'utilisation d'une librairie python permettant d'effectuer ce DAG et 
@@ -17,8 +17,8 @@ par la deuxième partie de l'énoncé; à savoir le monitoring, car Apache Airfl
 un serveur web permettant justement de visualiser les traitements, les lancer, suivre les 
 logs, visualiser les graphs, et modifier des paramètres a postériori. 
 
-Concernant le moteur de stockage, je suis parti sur Postgre car vous l'utilisez en interne, 
-et egalement parce qu'il est packagé avec Apache Airflow, et donc je pouvais m'en servir directement. 
+Concernant le moteur de stockage, j'ai choisi d'utiliser Postgres car vous l'utilisez en interne, 
+et également parce qu'il est packagé avec Apache Airflow, et donc je pouvais m'en servir directement. 
 
 J'ai un usage aussi très léger de la librairie Pandas, uniquement utilisée pour charger le CSV des transactions. 
 
@@ -38,67 +38,67 @@ J'ai crée deux DAG
 
 - le premier simule un traitement avec succès
 - le second simule un traitement contenant des erreurs. Pour ce faire, j'ai retouché l'algo
-des annotations afin de placer en erreur une transaction qui dépasserait un montant iréalliste, puis
-je génére un rapport d'erreur des transactions présentant un montant trop élevé. 
+des annotations afin de placer en erreur une transaction qui serait d'un montant trop élevé puis
+je génére un rapport d'erreur de ces transactions en erreur. 
 
-Le graphe du DAG final, dans le cas d'une erreur est le suivant 
+Le graphe du DAG final, dans le cas d'une erreur est le suivant : 
 
 ![Alt text](images/graph_avec_erreur.png?raw=true "Graph")
 
 Afin que vous puissiez observer le résultat de la table des transactions finales, j'ai choisi de dumper la table finale des transactions
 dans un fichier CSV appelé output_transactions.csv à la fin du process.
 Les deux algorithmes d'annotation et de tag ne sont pas bloquant pour la génération de ce 
-CSV final, et sont executés de manière parallèle. 
+CSV final, et sont exécutés de manière parallèle. 
 
 # Lancement de la solution
 
 Les étapes pour lancer la solution sont les suivantes :
 
 - Cloner le projet
-- Dans repertoire du projet, lancez: 
+- Dans repertoire du projet, lancer: 
 ```sh
 docker-compose up airflow-init
 ```
 attendre la fin de l'initialisation nécessaire pour Apache Airflow. La base de donnée 
 est créée et initialisée.
-- Puis lancez 
+- Puis lancer 
 ```sh
 docker-compose up 
 ```
 attendre la fin du lancement. 
-- Rendez vous sur 
+- Se rendre sur 
 ```sh
 http://localhost:8080/
 ```
-vous devriez atteindre une page d'authentification dont les identifiants/mdp sont :
+Vous devriez atteindre une page d'authentification dont les identifiants/mdp sont :
  airflow / airflow
 
 - Vous devriez arriver sur la page principale des DAG d'Apache AirFlow, comme cela : 
 ![Alt text](images/acceuil.png?raw=true "DAG")
 
-- Rendez vous dans le menu Admin > Connections et créez une connexion vers PostGre 
+- Se rendre dans le menu Admin > Connections et créer une connexion vers PostGre 
 avec les informations suivantes : 
 
 ![Alt text](images/connexion_db.png?raw=true "Graph")
 
 Vos DAG sont maintenant opérationnels. Vous pouvez retourner sur la page d'accueil et lancer
-les deux DAG l'un a la suite de l'autre ( pour des raisons de simplicité, j'utilise la même table pour les transactions, dans les 
-deux DAG). Le mot de passe a mettre pour cette connexion est airflow.
+les deux DAG l'un à la suite de l'autre ( pour des raisons de simplicité, j'utilise la même table pour les transactions, dans les 
+deux DAG). Le mot de passe à mettre pour cette connexion est "airflow".
 
 # Lancement des DAG
 
 Avant de lancer les DAG, sur l'écran d'acceuil, vous devez les activer avec le petit toggle button sur la gauche.
 Vous pouvez lancer les DAG en cliquant sur la fleche. Vous pourrez voir le nombre de tâches en succès et le nombre de 
-tâches en erreurs directement sur l'interface, et consulter les logs de celles ci. 
+tâches en erreur directement sur l'interface et consulter les logs de celles-ci. 
 
-La dernière tâche, ainsi que le callback en cas d'echecs générent des fichiers dans le volume monté présent dans /data/output/ 
+La dernière tâche, ainsi que le callback en cas d'échecs générent des fichiers dans le volume monté présent dans /data/output/ 
 dans le projet cloné. 
 
 En cliquant sur le nom des DAG, vous pourrez voir les informations liées au DAG.
 
 # Monitoring
-Grace à Airflow, vous pouvez monitorer les executions des jobs et avoir un rendu détaillé tâche par tâche, 
-avec le temps d'execution pris. Comme c'est le cas sur l'image ci-dessous
+Grâce à Airflow, vous pouvez monitorer les executions des jobs et avoir un rendu détaillé tâche par tâche, 
+avec le temps d'execution pris, comme c'est le cas sur l'image ci-dessous
 
 ![Alt text](images/details.png?raw=true "Graph")
 
@@ -119,10 +119,11 @@ sur la base de données, me permettant d'économiser le code d'ouverture de la c
 
 # Conclusion
 
-J'espère que ma solution vous aura interessé. Je suis curieux de connaitre votre avis et 
-vos pistes d'amélioration. C'était vraiment très interessant pour moi de faire ce projet. J'ai 
-pu approfondir ma connaissance d'Airflow et l'appliquer à un problème concret bien que simplifié :).
-N'hesitez pas bien sûr si vous rencontrez des problèmes de lancement ou toute autre question ! 
+Cette solution permet de répondre à la problématique du test technique concernant le traitement des données
+et le monitoring. Je suis curieux de connaître votre avis et 
+vos pistes d'amélioration. J'ai 
+pu approfondir ma connaissance d'Airflow grâce à ce travail et l'appliquer à un problème concret bien que simplifié :).
+Je reste à l'écoute si vous avez la moindre question. 
 
 
 A bientot !
