@@ -5,11 +5,12 @@ from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
-from algos.annotation import run_algo_annotation
-from algos.tag import run_algo_tag
+from algos.annotation import AnnotationAlgo
+from algos.tag import TagAlgo
 from inout.dump_transactions import dump_transactions
 from inout.generate_error_report import generate_report
 from inout.insert_transactions_with_errors import insert_transactions
+from inout.delete_output_files import delete_output_files
 
 args = {
     'owner': 'Alexandre Close',
@@ -18,7 +19,18 @@ args = {
 
 dag = DAG(dag_id='transactions_dag_with_errors', default_args=args, schedule_interval=None)
 
+def run_algo_tag():
+    TagAlgo().run_total_algo()
+
+def run_algo_annotation():
+    AnnotationAlgo().run_total_algo()
+
 with dag:
+    task_delete_output_files = PythonOperator(
+        task_id='delete_output_files',
+        python_callable=delete_output_files
+    )
+
     task_delete_table_transactions = PostgresOperator(task_id='delete_table_transactions',
                                                       sql=("drop table if exists transactions "),
                                                       postgres_conn_id='airflow_db',
@@ -43,6 +55,7 @@ with dag:
         python_callable=insert_transactions
     )
 
+    # trigger this task even if one of the previous tasks failed
     task_dump_table_transactions_to_csv = PythonOperator(
         task_id='dump_table_transactions_to_csv',
         python_callable=dump_transactions,
@@ -62,4 +75,4 @@ with dag:
     )
 
     # this is the way to chain the task with specific operators. the algo are branched into individual tasks
-    task_delete_table_transactions>> task_create_table_transactions >> task_populate_table_transactions >>  [task_run_algo_annotation,task_run_algo_tag] >> task_dump_table_transactions_to_csv
+    task_delete_output_files >> task_delete_table_transactions>> task_create_table_transactions >> task_populate_table_transactions >>  [task_run_algo_annotation,task_run_algo_tag] >> task_dump_table_transactions_to_csv
